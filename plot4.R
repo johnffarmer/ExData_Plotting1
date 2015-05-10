@@ -18,3 +18,4 @@ plot(filtered_data$DateTime, filtered_data$Global_reactive_power, type = "l", yl
 
 dev.off()
 
+

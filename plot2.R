@@ -7,3 +7,4 @@ filtered_data <- household_data[household_data$Date %in% c("1/2/2007","2/2/2007"
 png("plot2.png")
 plot(filtered_data$DateTime, filtered_data$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
+
